@@ -1,2 +1,4 @@
-while 1 == 1:
-    print("You're Hacked")
+a = 1
+while a <= 20:
+    print("Atif Hussain")
+    a += 1
