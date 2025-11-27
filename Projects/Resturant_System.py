@@ -1,7 +1,7 @@
 # Resturant Managment System 
 print("Welcome to Annapurna Resturant")
 
-veg_nonveg = input("Are You a Vegetarian, Non-Vegetarian or Both[V/N/B]: ")
+veg_nonveg = input("Are You a Vegetarian, Non-Vegetarian or Both[Y/N/B]: ")
 
 veg_items = ['Chowmein', "Veg Biryani", "Steam Momos", "Fried Momos"]
 nonveg_items = []
@@ -19,7 +19,7 @@ def veg():
         order_items.add(veg[i])  #May Be Error
     print("")
 
-if veg_nonveg == "V" or veg_nonveg == "v":
+if veg_nonveg == "Y" or veg_nonveg == "y":
     veg()
 elif veg_nonveg == "N" or veg_nonveg == "n":
     non_veg()
