@@ -139,3 +139,15 @@ while a == 1:
 
 
 '''
+
+# Functions
+'''
+Functions is a Set of program that runs which preform that program when we call his name with paranthises
+
+Eg: 
+def hello():
+   print("This ia a Hello Function)
+
+hello()
+
+'''
