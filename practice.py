@@ -1,4 +1,4 @@
-a = 1
-while a <= 20:
-    print("Atif Hussain")
-    a += 1
+def introduction(name="Atif Hussain",age="14",Class="Xth"):
+    print(f"I'm {age}Y/O, my self {name}. I'm currently Studing in class {Class}.")
+
+introduction(age = 16, Class = 10, name = "Alien")
