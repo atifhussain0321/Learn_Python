@@ -1,4 +1,6 @@
-def introduction(name="Atif Hussain",age="14",Class="Xth"):
-    print(f"I'm {age}Y/O, my self {name}. I'm currently Studing in class {Class}.")
+# List 
 
-introduction(age = 16, Class = 10, name = "Alien")
+a = [1,2,3,4,5,6,7,8,9,10, "Apple", print()]
+
+for i in a:
+    print(i)
