@@ -151,3 +151,13 @@ def hello():
 hello()
 
 '''
+
+
+# Important Command to Learn List 
+'''
+
+print(dir(list))
+
+help(list)
+
+'''
